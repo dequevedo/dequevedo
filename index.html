@@ -1,10 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Minha Página do GitHub</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Page</title>
+    <style>
+      .window {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, 10%);
+        width: 800px;
+        height: 600px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #3b3b3b;
+      }
+    </style>
   </head>
   <body>
-    <h1>Bem-vindo à minha página do GitHub!</h1>
-    <p>Esta é a minha página de exemplo.</p>
+    <canvas id="bg"></canvas>
+    <main class="window">
+      <blockquote> Teste texto</blockquote>
+    </main>
+    <script type="module" src="main.js"></script>
   </body>
 </html>
