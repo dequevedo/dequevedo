@@ -1,4 +1,4 @@
-name: Generate Contribution Graphs
+name: Generate Contribution Calendar
 
 on:
   schedule:
@@ -6,44 +6,21 @@ on:
   workflow_dispatch:
 
 jobs:
-  contrib-3d:
+  contrib-calendar:
     permissions:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate 3D contribution calendar
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: profile-3d-contrib
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  contrib-metrics:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - name: Generate isometric contribution calendar
+      - name: Generate contribution calendar (last 3 years)
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           username: ${{ github.repository_owner }}
-          filename: github-metrics-calendar.svg
+          filename: github-contribution-calendar.svg
           base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_calendar: yes
+          plugin_calendar_limit: 3
           config_timezone: America/Sao_Paulo
           output_action: commit
-          committer_branch: output-metrics
-          config_display: large
+          committer_branch: output-calendar
