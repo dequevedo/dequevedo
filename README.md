@@ -24,9 +24,11 @@ I build RESTful APIs, experiment with game dev, and tinker with AI-powered tools
 
 ### Highlights
 
-- 🔧 **Zarb** — Desktop AI assistant with Live2D avatar, voice commands, and multi-provider LLM support
-- 🏰 **unity-2d-dungeon-generator** — Procedural dungeon generation with Unity tilemaps
-- ☕ **soat-tech-challenge** — Microservices architecture with Java/Spring Boot + Terraform on AWS
+| Project | Description | Tech |
+|---------|-------------|------|
+| **Zarb Desktop** | AI assistant with Live2D avatar, voice commands, and multi-provider LLM support | Electron, React, TypeScript |
+| **Unity 2D Dungeon Generator** | Procedural dungeon generation using tilemaps and random walk algorithms | Unity, C# |
+| **SOAT Tech Challenge** | Microservices architecture with clean code principles and cloud infrastructure | Java, Spring Boot, Terraform, AWS |
 
 ---
 
