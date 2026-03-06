@@ -41,6 +41,16 @@ I build RESTful APIs, experiment with game dev, and tinker with AI-powered tools
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=dequevedo&theme=github-dark-blue&hide_border=true" width="100%" />
 
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=dequevedo&theme=github-dark&hide_border=true&area=true" width="100%" />
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dequevedo/dequevedo/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dequevedo/dequevedo/output/github-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/dequevedo/dequevedo/output/github-snake-dark.svg" width="100%" />
+</picture>
+
 ---
 
 <sub>📍 Campinas, BR · [LinkedIn](https://www.linkedin.com/in/daniel-elvis-quevedo)</sub>
