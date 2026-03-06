@@ -5,7 +5,8 @@
 <br>
 
 Fullstack developer at **CI&T** · Campinas, Brazil  
-I build RESTful APIs, experiment with game dev, and tinker with AI-powered tools.
+Java & Spring Boot on the backend, React & Stencil on the frontend.  
+Also into game dev with Unity and AI-powered tools.
 
 <br>
 
@@ -32,6 +33,7 @@ I build RESTful APIs, experiment with game dev, and tinker with AI-powered tools
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Stencil](https://img.shields.io/badge/Stencil-4D4D4D?style=flat-square&logo=stencil&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
