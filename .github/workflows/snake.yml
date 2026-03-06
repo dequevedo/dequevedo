@@ -13,6 +13,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Generate contribution calendar (last 3 years)
         uses: lowlighter/metrics@latest
@@ -24,12 +26,6 @@ jobs:
           plugin_calendar: yes
           plugin_calendar_limit: 3
           config_timezone: America/Sao_Paulo
-          output_action: none
-
-      - name: Push to output-calendar branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output-calendar
-          build_dir: /metrics_renders
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          output_action: commit
+          committer_branch: main
+          committer_message: "chore: update contribution calendar"
