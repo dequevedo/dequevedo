@@ -47,11 +47,17 @@ I build RESTful APIs, experiment with game dev, and tinker with AI-powered tools
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dequevedo/dequevedo/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dequevedo/dequevedo/output/github-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/dequevedo/dequevedo/output/github-snake-dark.svg" width="100%" />
-</picture>
+### 3D Contribution Calendar
+
+<img src="https://raw.githubusercontent.com/dequevedo/dequevedo/output/profile-3d-contrib/profile-night-green.svg" width="100%" />
+
+---
+
+### Isometric Contribution Calendar
+
+<img src="https://raw.githubusercontent.com/dequevedo/dequevedo/output-metrics/github-metrics-calendar.svg" width="100%" />
+
+<img src="https://raw.githubusercontent.com/dequevedo/dequevedo/output-metrics/github-metrics-habits.svg" width="100%" />
 
 ---
 
