@@ -1,7 +1,11 @@
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&width=435&lines=Fullstack+Developer;Game+Dev+%7C+AI+Enthusiast;Building+cool+stuff+with+code" alt="Typing SVG" /></a>
+
 # Hey, I'm Daniel 👋
 
 Fullstack developer at **CI&T** based in Campinas, Brazil.  
 I build RESTful APIs, experiment with game dev, and tinker with AI-powered tools.
+
+![Profile Views](https://komarev.com/ghpvc/?username=dequevedo&color=blue&style=flat)
 
 ---
 
@@ -40,8 +44,6 @@ I build RESTful APIs, experiment with game dev, and tinker with AI-powered tools
 </p>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=dequevedo&theme=github-dark-blue&hide_border=true" width="100%" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dequevedo&theme=github-dark&hide_border=true&area=true" width="100%" />
 
 ---
 
