@@ -51,30 +51,24 @@ I build RESTful APIs, experiment with game dev, and tinker with AI-powered tools
 ## Featured Projects
 
 <a href="https://github.com/dequevedo/zarb-desktop">
-  <img src="https://img.shields.io/badge/Zarb_Desktop-58A6FF?style=for-the-badge&logo=electron&logoColor=white" />
+  <img src="https://img.shields.io/badge/Zarb_Desktop-AI_assistant_with_Live2D_avatar_and_voice_commands-58A6FF?style=for-the-badge&logo=electron&logoColor=white" />
 </a>
-<br>
-<sub>AI assistant with Live2D avatar, voice commands, and multi-provider LLM support</sub>
 <br>
 <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logoColor=black" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logoColor=white" />
 
 <br>
 
 <a href="https://github.com/dequevedo/unity-2d-dungeon-generator">
-  <img src="https://img.shields.io/badge/Unity_2D_Dungeon_Generator-58A6FF?style=for-the-badge&logo=unity&logoColor=white" />
+  <img src="https://img.shields.io/badge/2D_Dungeon_Generator-Procedural_generation_with_tilemaps_and_random_walk-58A6FF?style=for-the-badge&logo=unity&logoColor=white" />
 </a>
-<br>
-<sub>Procedural dungeon generation using tilemaps and random walk algorithms</sub>
 <br>
 <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logoColor=white" />
 
 <br>
 
 <a href="https://github.com/dequevedo/soat-tech-challenge">
-  <img src="https://img.shields.io/badge/SOAT_Tech_Challenge-58A6FF?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/SOAT_Tech_Challenge-Microservices_with_clean_architecture_and_cloud_infra-58A6FF?style=for-the-badge&logo=springboot&logoColor=white" />
 </a>
-<br>
-<sub>Microservices architecture with clean code principles and cloud infrastructure</sub>
 <br>
 <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logoColor=white" />
 
