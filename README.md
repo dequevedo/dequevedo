@@ -1,6 +1,6 @@
 # Hey, I'm Daniel 👋
 
-Backend developer at **CI&T** based in Campinas, Brazil.  
+Fullstack developer at **CI&T** based in Campinas, Brazil.  
 I build RESTful APIs, experiment with game dev, and tinker with AI-powered tools.
 
 ---
