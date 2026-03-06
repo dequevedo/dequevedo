@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Generate classic contribution calendar
+      - name: Generate isometric contribution calendar
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -44,29 +44,6 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           config_timezone: America/Sao_Paulo
-
-      - name: Generate contribution habits
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          username: ${{ github.repository_owner }}
-          filename: github-metrics-habits.svg
-          base: ""
-          plugin_habits: yes
-          plugin_habits_days: 30
-          plugin_habits_charts: yes
-          config_timezone: America/Sao_Paulo
-
-      - name: Move artifacts
-        run: |
-          mkdir -p dist
-          cp /metrics_renders/github-metrics-calendar.svg dist/ 2>/dev/null || cp github-metrics-calendar.svg dist/ 2>/dev/null || true
-          cp /metrics_renders/github-metrics-habits.svg dist/ 2>/dev/null || cp github-metrics-habits.svg dist/ 2>/dev/null || true
-
-      - name: Push metrics to output-metrics branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output-metrics
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          output_action: commit
+          committer_branch: output-metrics
+          config_display: large
