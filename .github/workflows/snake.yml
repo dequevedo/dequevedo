@@ -29,3 +29,11 @@ jobs:
           output_action: commit
           committer_branch: main
           committer_message: "chore: update contribution calendar"
+          extras_css: |
+            .field svg { background: transparent !important; }
+            rect[fill="#ebedf0"], rect[fill="#e8e8e8"], rect[fill="var(--color-calendar-graph-day-bg)"] { fill: #161b22 !important; }
+            .calendar.field .entry rect[data-level="0"] { fill: #161b22 !important; }
+            .calendar.field rect:not([data-level]) { fill: #161b22 !important; }
+            .calendar.field .entry:first-child text { font-size: 10px !important; fill: #8b949e !important; }
+            h2, h3, .field header { display: none !important; }
+            svg { color-scheme: dark; }
