@@ -47,15 +47,9 @@ I build RESTful APIs, experiment with game dev, and tinker with AI-powered tools
 
 ---
 
-### 3D Contribution Calendar
+### Contributions
 
-<img src="https://raw.githubusercontent.com/dequevedo/dequevedo/output/profile-night-green.svg" width="100%" />
-
----
-
-### Isometric Contribution Calendar
-
-<img src="https://raw.githubusercontent.com/dequevedo/dequevedo/output-metrics/github-metrics-calendar.svg" width="100%" />
+<img src="https://raw.githubusercontent.com/dequevedo/dequevedo/output-calendar/github-contribution-calendar.svg" width="100%" />
 
 ---
 
