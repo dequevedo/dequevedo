@@ -43,13 +43,13 @@ I build RESTful APIs, experiment with game dev, and tinker with AI-powered tools
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dequevedo&layout=compact&theme=github_dark&hide_border=true&langs_count=8" />
 </p>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=dequevedo&theme=github-dark-blue&hide_border=true" width="100%" />
+<img src="https://streak-stats.demolab.com/?user=dequevedo&theme=github-dark-blue&hide_border=true" width="100%" />
 
 ---
 
 ### Contributions
 
-<img src="https://raw.githubusercontent.com/dequevedo/dequevedo/output-calendar/github-contribution-calendar.svg" width="100%" />
+<img src="https://raw.githubusercontent.com/dequevedo/dequevedo/main/github-contribution-calendar.svg" width="100%" />
 
 ---
 
