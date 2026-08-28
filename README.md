@@ -6,7 +6,7 @@
 
 Fullstack developer at **CI&T** · Campinas, Brazil  
 Java & Spring Boot on the backend, React & Stencil on the frontend.  
-Also into game dev with Unity and AI-powered tools.
+Also into game dev with Unity, Godot and AI-powered tools.
 
 <br>
 
